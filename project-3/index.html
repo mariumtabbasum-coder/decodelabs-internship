@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA — Urban Architecture Studio</title>
+    <meta name="description" content="NOVA is an urban architecture studio crafting spaces that shape how we live through refined spatial design, sustainable materiality, and contextual integrity.">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="NOVA — Urban Architecture Studio">
+    <meta property="og:description" content="Spaces that shape how we live. Urban architecture and spatial design studio NOVA portfolio.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Shared Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Theme Mode Script -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body id="top">
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__inner">
+        <a href="#top" class="header__logo" aria-label="NOVA Studio Homepage">NOVA</a>
+
+        <!-- Unified Navigation Panel -->
+        <nav id="nav-menu" class="nav js-nav" aria-label="Main Navigation">
+          <ul class="nav__list">
+            <li><a href="#studio" class="nav__link js-nav-link">Studio</a></li>
+            <li><a href="#spaces" class="nav__link js-nav-link">Spaces</a></li>
+            <li><a href="#journal" class="nav__link js-nav-link">Journal</a></li>
+            <li><a href="#contact" class="nav__link js-nav-link">Contact</a></li>
+          </ul>
+
+          <div class="nav__action">
+            <a href="#spaces" class="button button--outline nav__explore js-nav-link">Explore</a>
+          </div>
+        </nav>
+
+        <div class="header__action">
+          <!-- Theme Mode Toggle -->
+          <button
+            type="button"
+            class="theme-toggle js-theme-toggle"
+            aria-label="Switch to dark mode"
+            aria-pressed="false"
+          >
+            <svg class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+
+          <!-- Hamburger Button (Below 768px) -->
+          <button
+            type="button"
+            class="menu-button js-menu-button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <svg class="menu-button__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line class="menu-button__line menu-button__line--top" x1="4" y1="6" x2="20" y2="6"/>
+              <line class="menu-button__line menu-button__line--middle" x1="4" y1="12" x2="20" y2="12"/>
+              <line class="menu-button__line menu-button__line--bottom" x1="4" y1="18" x2="20" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section (Studio) -->
+      <section id="studio" class="hero" aria-labelledby="hero-title">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="hero__eyebrow">SPATIAL DESIGN</p>
+            <h1 id="hero-title" class="hero__title">
+              <span class="hero__line">Spaces that shape</span>
+              <span class="hero__line hero__line--second">how we live.</span>
+            </h1>
+            <p class="hero__description">
+              Design on an architectural discipline, shaping mindful spaces from how we live.
+            </p>
+            <a href="#spaces" class="button button--primary">Explore Studio</a>
+          </div>
+
+          <div class="hero__media">
+            <img
+              src="images/hero.webp"
+              alt="Modern minimalist concrete and timber residence at dusk with warm glowing interior"
+              class="hero__image"
+              width="1120"
+              height="900"
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Band -->
+      <section class="stats" aria-label="Studio Statistics">
+        <div class="container">
+          <div class="stats__grid">
+            <div class="stats__item">
+              <span class="stats__number">18</span>
+              <span class="stats__label">Projects</span>
+            </div>
+            <div class="stats__item">
+              <span class="stats__number">07</span>
+              <span class="stats__label">Cities</span>
+            </div>
+            <div class="stats__item">
+              <span class="stats__number">12</span>
+              <span class="stats__label">Years</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Selected Spaces -->
+      <section id="spaces" class="spaces" aria-labelledby="spaces-title">
+        <div class="container">
+          <h2 id="spaces-title" class="section-title">SELECTED SPACES</h2>
+
+          <div class="spaces__grid">
+            <!-- Card 1: Residential -->
+            <article class="card">
+              <figure class="card__media">
+                <img
+                  src="images/residential.webp"
+                  alt="Minimalist living room with natural oak wall paneling and neutral furnishings"
+                  class="card__image"
+                  width="800"
+                  height="500"
+                  loading="lazy"
+                >
+              </figure>
+              <h3 class="card__title">Residential</h3>
+              <p class="card__description">
+                Thoughtfully crafted private residences balancing raw materiality with warmth and natural light.
+              </p>
+            </article>
+
+            <!-- Card 2: Workplace -->
+            <article class="card">
+              <figure class="card__media">
+                <img
+                  src="images/workplace.webp"
+                  alt="Open-plan architectural studio workplace with collaborative wooden desks"
+                  class="card__image"
+                  width="800"
+                  height="500"
+                  loading="lazy"
+                >
+              </figure>
+              <h3 class="card__title">Workplace</h3>
+              <p class="card__description">
+                Adaptive environments designed to inspire collective focus, creative exchange, and wellbeing.
+              </p>
+            </article>
+
+            <!-- Card 3: Cultural -->
+            <article class="card">
+              <figure class="card__media">
+                <img
+                  src="images/cultural.webp"
+                  alt="Monolithic cultural gallery with serene concrete walls and minimal timber doorway"
+                  class="card__image"
+                  width="800"
+                  height="500"
+                  loading="lazy"
+                >
+              </figure>
+              <h3 class="card__title">Cultural</h3>
+              <p class="card__description">
+                Civic spaces and cultural pavilions that celebrate communal memory and architectural presence.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Project -->
+      <section class="featured" aria-labelledby="featured-title">
+        <div class="container">
+          <h2 id="featured-title" class="section-title">FEATURED PROJECT</h2>
+
+          <div class="featured__grid">
+            <figure class="featured__media js-featured-media">
+              <img
+                src="images/casa-terra.webp"
+                alt="Casa Terra subterranean architectural concrete structure embedded in natural earth"
+                class="featured__image js-featured-image"
+                width="1100"
+                height="520"
+                loading="lazy"
+              >
+            </figure>
+
+            <article class="featured__content js-featured-content" aria-live="polite">
+              <div class="featured__pager" role="group" aria-label="Featured projects">
+                <button
+                  type="button"
+                  class="featured__dot js-featured-button is-active"
+                  aria-label="Show featured project 1"
+                  aria-current="true"
+                  data-project-index="0"
+                >01</button>
+                <button
+                  type="button"
+                  class="featured__dot js-featured-button"
+                  aria-label="Show featured project 2"
+                  data-project-index="1"
+                >02</button>
+                <button
+                  type="button"
+                  class="featured__dot js-featured-button"
+                  aria-label="Show featured project 3"
+                  data-project-index="2"
+                >03</button>
+              </div>
+
+              <h3 class="featured__title js-featured-title">CASA TERRA / 2026</h3>
+              <p class="featured__description js-featured-description">
+                An earthen architectural sanctuary sculpted into natural terrain, harmonizing raw board-formed concrete volumes with excavated rock formations to create enduring spatial intimacy.
+              </p>
+              <a href="#journal" class="link-arrow">
+                [ View Project ]
+                <span class="link-arrow__icon" aria-hidden="true">&rarr;</span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Journal Section -->
+      <section id="journal" class="journal" aria-labelledby="journal-title">
+        <div class="container">
+          <p class="section-kicker">JOURNAL</p>
+          <h2 id="journal-title" class="section-title section-title--serif">Notes from the Studio</h2>
+
+          <div class="journal__grid">
+            <!-- Journal Card 1 -->
+            <article class="card card--journal">
+              <p class="card__meta">Design &middot; March 2026</p>
+              <h3 class="card__title">Designing for Karachi's light</h3>
+              <p class="card__description">
+                Harsh coastal sun demands deep reveals, shaded breezeways, and porous screens that temper tropical glare without sacrificing natural ventilation.
+              </p>
+            </article>
+
+            <!-- Journal Card 2 -->
+            <article class="card card--journal">
+              <p class="card__meta">Materiality &middot; February 2026</p>
+              <h3 class="card__title">Why concrete can feel warm</h3>
+              <p class="card__description">
+                By selecting warm local aggregates, textured board formwork, and tactile wooden interfaces, monolithic surfaces turn welcoming and deeply grounded.
+              </p>
+            </article>
+
+            <!-- Journal Card 3 -->
+            <article class="card card--journal">
+              <p class="card__meta">Urbanism &middot; January 2026</p>
+              <h3 class="card__title">Small courtyards, big difference</h3>
+              <p class="card__description">
+                Even a modest courtyard microclimate pulls ocean breezes inward, cooling dense residential footprints while establishing a serene pocket of sky.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact__grid">
+            <!-- Left Column: Heading, Intro & Info -->
+            <div class="contact__details">
+              <p class="section-kicker">CONTACT</p>
+              <h2 id="contact-title" class="section-title section-title--serif">Let's talk about your space</h2>
+              <p class="contact__intro">
+                Whether you are planning a private home, a collaborative workspace, or an urban cultural space, we welcome discussions on new commissions and spatial ideas.
+              </p>
+
+              <address class="contact__info">
+                <div class="contact__item">
+                  <span class="contact__item-label">Phone</span>
+                  <span class="contact__item-value">
+                    <a href="tel:+923001234567" class="contact__link">+92 300 1234567</a>
+                  </span>
+                </div>
+                <div class="contact__item">
+                  <span class="contact__item-label">Email</span>
+                  <span class="contact__item-value">
+                    <a href="mailto:hello@nova.com" class="contact__link">hello@nova.com</a>
+                  </span>
+                </div>
+                <div class="contact__item">
+                  <span class="contact__item-label">Studio</span>
+                  <span class="contact__item-value">NOVA Studio, Clifton Block 5, Karachi, Pakistan</span>
+                </div>
+                <div class="contact__item">
+                  <span class="contact__item-label">Hours</span>
+                  <span class="contact__item-value">Mon to Sat, 10 AM to 6 PM</span>
+                </div>
+              </address>
+            </div>
+
+            <!-- Right Column: Visual Form Card -->
+            <div class="contact__card">
+              <form action="#" method="post" class="contact__form js-contact-form" novalidate>
+                <div class="form__group">
+                  <label for="contact-name" class="form__label">Name</label>
+                  <input
+                    type="text"
+                    id="contact-name"
+                    name="name"
+                    class="form__input js-input-name"
+                    placeholder="Your name"
+                    autocomplete="name"
+                  >
+                </div>
+
+                <div class="form__group">
+                  <label for="contact-email" class="form__label">Email</label>
+                  <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    class="form__input js-input-email"
+                    placeholder="name@example.com"
+                    autocomplete="email"
+                  >
+                </div>
+
+                <div class="form__group">
+                  <label for="contact-message" class="form__label">Message</label>
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    class="form__input form__textarea js-input-message"
+                    rows="4"
+                    placeholder="Tell us about your project..."
+                  ></textarea>
+                </div>
+
+                <div class="form__action">
+                  <button type="submit" class="button button--primary button--full">Send Message</button>
+                  <p class="form__message js-form-message" role="status" aria-live="polite"></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <!-- Column 1: Brand -->
+          <div class="footer__brand">
+            <a href="#top" class="footer__logo" aria-label="NOVA Studio Homepage">NOVA</a>
+            <p class="footer__tagline">
+              Urban architecture and spatial design studio creating timeless environments.
+            </p>
+          </div>
+
+          <!-- Column 2: Explore -->
+          <div class="footer__column">
+            <h2 class="footer__heading">EXPLORE</h2>
+            <ul class="footer__list">
+              <li><a href="#studio" class="footer__link">Studio</a></li>
+              <li><a href="#spaces" class="footer__link">Spaces</a></li>
+              <li><a href="#journal" class="footer__link">Journal</a></li>
+              <li><a href="#contact" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Location -->
+          <div class="footer__column">
+            <h2 class="footer__heading">LOCATION</h2>
+            <address class="footer__address">
+              <span class="footer__text">NOVA Studio</span>
+              <span class="footer__text">Clifton, Block 5</span>
+              <span class="footer__text">Karachi, Pakistan</span>
+            </address>
+          </div>
+
+          <!-- Column 4: Social (External Sign-in Links) -->
+          <div class="footer__column">
+            <h2 class="footer__heading">SOCIAL</h2>
+            <ul class="footer__social-list">
+              <li>
+                <a
+                  href="https://www.facebook.com/login/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer__social-link"
+                  aria-label="Sign in to Facebook in a new tab"
+                >
+                  <svg class="footer__social-icon" aria-hidden="true" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                  </svg>
+                  <span>Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/accounts/login/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer__social-link"
+                  aria-label="Sign in to Instagram in a new tab"
+                >
+                  <svg class="footer__social-icon" aria-hidden="true" viewBox="0 0 24 24">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  </svg>
+                  <span>Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com/i/flow/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer__social-link"
+                  aria-label="Sign in to X in a new tab"
+                >
+                  <svg class="footer__social-icon" aria-hidden="true" viewBox="0 0 24 24">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  <span>X (Twitter)</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copyright">&copy; 2026 NOVA</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
