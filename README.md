@@ -8,6 +8,7 @@ All three use the same website, **NOVA - Urban Architecture Studio**, and each p
 | 1 | Static Webpage Design | HTML5, CSS3 | [`project-1`](./project-1) | https://YOUR-USERNAME.github.io/decodelabs-internship/project-1/ |
 | 2 | Responsive Web Layout | HTML5, CSS3 | [`project-2`](./project-2) | https://YOUR-USERNAME.github.io/decodelabs-internship/project-2/ |
 | 3 | Interactive Web Elements | HTML5, CSS3, JavaScript | [`project-3`](./project-3) | https://YOUR-USERNAME.github.io/decodelabs-internship/project-3/ |
+| 4 | Dynamic Web Application | HTML5, CSS3, JavaScript | [`project-4`](./project-4) | https://YOUR-USERNAME.github.io/decodelabs-internship/project-4/ |
 
 ## Repository structure
 
@@ -17,6 +18,7 @@ decodelabs-internship/
 ├── project-1/   (index.html, css/, images/, README.md)
 ├── project-2/   (index.html, css/, images/, README.md)
 └── project-3/   (index.html, css/, js/, images/, README.md)
+└── project-4/   (index.html, css/, js/, images/, README.md)
 ```
 
 ## How to run
